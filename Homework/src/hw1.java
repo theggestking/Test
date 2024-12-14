@@ -21,6 +21,7 @@ public class hw1 {
 		else
 			System.out.println("Your number isn't prime");
 System.out.println("hi");
+System.out.println();
 	}
 	
 	public static boolean isPrime(int num) {

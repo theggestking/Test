@@ -20,7 +20,7 @@ public class hw1 {
 			System.out.println("Your number is prime");
 		else
 			System.out.println("Your number isn't prime");
-
+System.out.println("hi");
 	}
 	
 	public static boolean isPrime(int num) {
@@ -37,7 +37,6 @@ public class hw1 {
 			}
 		}
 		return true;
-
 	}
 
 }

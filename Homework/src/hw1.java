@@ -1,40 +1,24 @@
-import java.util.Scanner;
 
 public class hw1 {
 
-	public static void main(String[] args) {
-
-		Scanner scan = new Scanner(System.in);
-
-		System.out.println("Enter your number");
-		if (!scan.hasNextInt()) {
-			System.out.println("Invalid input");
-			scan.close();
+	public static void isPrime(int num) {
+		if (num == 2) {
+			System.out.println(true);
 			return;
 		}
-		int number = scan.nextInt();
-		scan.close();
-
-		if (isPrime(number))
-			System.out.println("Your number is prime");
-		else
-			System.out.println("Your number isn't prime");
-
-	}
-
-	public static boolean isPrime(int num) {
-
-		if (num == 2)
-			return true;
-		if (num <= 1 || num % 2 == 0)
-			return false;
+		if (num <= 1 || num % 2 == 0) {
+			System.out.println(false);
+			return;
+		}
 
 		for (int i = 3; i <= Math.sqrt(num); i += 2) {
 			if (num % i == 0) {
-				return false;
+				System.out.println(false);
+				return;
 			}
 		}
-		return true;
+		System.out.println(true);
+
 	}
 
 }

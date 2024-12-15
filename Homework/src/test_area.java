@@ -12,6 +12,7 @@ public class test_area {
 		//Sum_of_Digits.Your_Number(3212512);
 		//TwoDigit_Numbers_Divisible_by_Digit_Sum.numbers();
 		//Decompose_into_Powers_of_Two.num(11);
-
+        //speedrun.noContinue();
+		speedrun.withContinue();
 	}
 }

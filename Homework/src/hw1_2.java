@@ -5,7 +5,7 @@ public class hw1_2 {
 
 		if (num < 0) {
 			System.out.println("bruh");
-return 0;
+			return 0;
 		}
 		if (num == 0 || num == 1) {
 			System.out.println(1);
@@ -18,7 +18,6 @@ return 0;
 
 		}
 		System.out.println(value);
-
 		return value;
 	}
 
